@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F83434"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="162dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/paperButton"
+        android:layout_width="120sp"
+        android:layout_height="90sp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="69dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scissorsButton"
+        app:layout_constraintStart_toEndOf="@+id/rockButton"
+        app:layout_constraintTop_toBottomOf="@+id/playerPts"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/paper" />
+
+    <TextView
+        android:id="@+id/playerPts"
+        android:layout_width="90sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="124dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/scissorsButton"
+        android:layout_width="120sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botPts"
+        app:srcCompat="@drawable/scissors" />
+
+    <TextView
+        android:id="@+id/botPts"
+        android:layout_width="90sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="56dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/rockButton"
+        android:layout_width="120sp"
+        android:layout_height="90sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerPts"
+        app:srcCompat="@drawable/rock" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/montserrat"
+        android:onClick="openSettings"
+        android:text="@string/settings"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

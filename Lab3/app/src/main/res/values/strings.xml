@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="title">КОНВЕРТЕР ВАЛЮТ</string>
+    <string name="hint_cur1">Введите кол-во валюты</string>
+    <string name="convert">Перевести</string>
+
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+        <item>AUD</item>
+        <item>AZN</item>
+        <item>GBP</item>
+        <item>AMD</item>
+        <item>BYN</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>HUF</item>
+        <item>VND</item>
+        <item>HKD</item>
+        <item>GEL</item>
+        <item>DKK</item>
+        <item>AED</item>
+        <item>EGB</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>KZT</item>
+        <item>CAD</item>
+        <item>QAR</item>
+        <item>KGS</item>
+        <item>CNY</item>
+        <item>MDL</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>XDR</item>
+        <item>SGD</item>
+        <item>TJS</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TMT</item>
+        <item>UZS</item>
+        <item>UAH</item>
+        <item>CZK</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>RSD</item>
+        <item>ZAR</item>
+        <item>KRW</item>
+        <item>JPY</item>
+    </string-array>
+
+</resources>

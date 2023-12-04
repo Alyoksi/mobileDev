@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Settings">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="146dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="returnMain"
+        android:text="@string/returnMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableRow
+        android:layout_width="346dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/inputText" />
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change" />
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

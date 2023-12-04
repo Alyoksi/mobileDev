@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="Title">Камень, ножницы, бумага</string>
+    <string name="ptsToWin">Кол-во очков для выигрыша</string>
+
+    <string name="settings">Настройки</string>
+    <string name="inputText">Введите число</string>
+    <string name="change">Изменить</string>
+    <string name="returnMain">Вернуться</string>
+</resources>
