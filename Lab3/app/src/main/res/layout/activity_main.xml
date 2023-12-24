@@ -20,7 +20,8 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -74,14 +75,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="120sp"
+        android:layout_width="130sp"
         android:layout_height="55sp"
-        android:layout_marginStart="145dp"
+        android:layout_marginStart="135dp"
         android:layout_marginTop="59dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="309dp"
-        android:text="@string/convert"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="308dp"
         android:onClick="convertCurrency"
+        android:text="@string/convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
